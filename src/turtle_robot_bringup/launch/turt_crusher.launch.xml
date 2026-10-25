@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="turtle_robot" exec="mario" name="mario"/>
+    <node pkg="turtle_robot" exec="spawn_turts"/>
+    <node pkg="turtlesim" exec="turtlesim_node"/>
+</launch>
